@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">My_Calculadora</string>
+    <string name="constante1">Ingresa un numero:</string>
+    <string name="constante4">Ingresa dos numeros para calcular la POTENCIA:</string>
+    <string name="constante5">Ingresa dos numeros para realizar la MULTIPLICACIÓN:</string>
+    <string name="constante6">Ingresa cantidad de numeros para la SERIE DE FIBONACCI:</string>
+    <string name="constante2">INICIAR</string>
+    <string name="constante3">CALCULAR</string>
+    <string name="constante7">Resultado</string>
+    <string name="constante8">Inicio</string>
+    <string name="constante9">Base</string>
+    <string name="constante10">Potencia</string>
+    <string name="constante11"> 1 para calcular  una  Potencia</string>
+    <string name="constante15"> 2 para calcular multiplicación</string>
+    <string name="constante16"> 3 para la Serie  de  Fibonacci</string>
+    <string name="constante12">Elija una de las siguientes opciones:</string>
+    <string name="constante13">Numero1</string>
+    <string name="constante14">Numero2</string>
+</resources>
