@@ -24,8 +24,6 @@ public class MainActivity4 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main4);
-
-
         listview = findViewById(R.id.listview);
 
         names =  new ArrayList<>();
@@ -36,10 +34,6 @@ public class MainActivity4 extends AppCompatActivity {
 
         ArrayAdapter <String> adapter =  new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1, names);
     }*/
-
-
-
-
     private EditText primerN;
     private TextView conteoN;
     //private ArrayList <String> names;
