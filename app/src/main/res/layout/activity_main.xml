@@ -5,9 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/fondo5"
-    android:visibility="visible"
-    tools:context=".MainActivity"
-    tools:visibility="visible">
+    tools:context=".MainActivity">
+
 
     <Button
         android:id="@+id/button"
@@ -63,14 +62,12 @@
         android:textSize="20sp"
         android:textStyle="bold|italic"
         android:typeface="normal"
-        android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.541"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.289"
-        tools:visibility="visible" />
+        app:layout_constraintVertical_bias="0.289" />
 
     <TextView
         android:id="@+id/textView14"
@@ -114,14 +111,12 @@
         android:textColor="#F8F4F4"
         android:textSize="20sp"
         android:textStyle="bold|italic"
-        android:visibility="visible"
         app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.811"
-        tools:visibility="visible" />
+        app:layout_constraintVertical_bias="0.811" />
 
     <TextView
         android:id="@+id/textView15"
