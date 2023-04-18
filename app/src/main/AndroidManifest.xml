@@ -14,8 +14,12 @@
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
+<<<<<<< HEAD
             android:value="AIzaSyCbX00BX5PExLkr5zhA7aoq89hmpzYVkhU"/>
 
+=======
+            android:value="AIzaSyCbX00BX5PExLkr5zhA7aoq89hmpzYVkhU" />
+>>>>>>> origin/master
 
         <activity
             android:name=".MainActivity5"

@@ -30,23 +30,34 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+<<<<<<< HEAD
    public void funcionParaBttn5(View view) {
         Intent hola5 = new Intent(this, MainActivity5.class);
         startActivity(hola5);
 
     }
 
+=======
+>>>>>>> origin/master
     public void funcionParaBoton(View view) {
         Intent hola2 = new Intent(this, MainActivity2.class);
         Intent hola3 = new Intent(this, MainActivity3.class);
         Intent hola4 = new Intent(this, MainActivity4.class);
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
         if (Integer.parseInt(numero.getText().toString()) == 1) {
             startActivity(hola2);
         } else if (Integer.parseInt(numero.getText().toString()) == 2) {
             startActivity(hola3);
         } else if (Integer.parseInt(numero.getText().toString()) == 3) {
             startActivity(hola4);
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
 
         }
     }

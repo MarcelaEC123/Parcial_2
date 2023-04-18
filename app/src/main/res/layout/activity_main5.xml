@@ -8,7 +8,8 @@
     tools:context=".MainActivity5">
 
     <EditText
-        android:id="@+id/txtlatitud"
+        android:id="@+id/txtLatitud"
+        tools:context=".MainActivity5"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
@@ -19,6 +20,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
+
         android:id="@+id/txtlongitud"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -28,7 +30,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtlatitud" />
+        tools:ignore="MissingConstraints" />
 
     <fragment
         android:id="@+id/Mapa"
