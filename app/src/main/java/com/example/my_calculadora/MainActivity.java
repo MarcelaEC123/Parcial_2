@@ -11,16 +11,19 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
     Button miBoton;
-    private EditText numero;
+    private EditText usuario;
 
-    private TextView resultadoOperacion;
+    private TextView contrasena;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        miBoton = findViewById(R.id.button);
-        numero = findViewById(R.id.editTextNumber);
+        miBoton = findViewById(R.id.button9);
+        usuario = findViewById(R.id.US);
+        contrasena = findViewById(R.id.PW);
 
     }
 
@@ -29,36 +32,10 @@ public class MainActivity extends AppCompatActivity {
         startActivity(hola);
 
     }
-
-<<<<<<< HEAD
    public void funcionParaBttn5(View view) {
         Intent hola5 = new Intent(this, MainActivity5.class);
         startActivity(hola5);
 
     }
 
-=======
->>>>>>> origin/master
-    public void funcionParaBoton(View view) {
-        Intent hola2 = new Intent(this, MainActivity2.class);
-        Intent hola3 = new Intent(this, MainActivity3.class);
-        Intent hola4 = new Intent(this, MainActivity4.class);
-
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/master
-        if (Integer.parseInt(numero.getText().toString()) == 1) {
-            startActivity(hola2);
-        } else if (Integer.parseInt(numero.getText().toString()) == 2) {
-            startActivity(hola3);
-        } else if (Integer.parseInt(numero.getText().toString()) == 3) {
-            startActivity(hola4);
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/master
-
-        }
-    }
 }

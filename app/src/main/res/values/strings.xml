@@ -1,10 +1,8 @@
 <resources>
     <string name="app_name">My_Calculadora</string>
-    <string name="constante1">Ingresa un numero:</string>
-    <string name="constante4">Ingresa dos numeros para calcular la POTENCIA:</string>
-    <string name="constante5">Ingresa dos numeros para realizar la MULTIPLICACIÓN:</string>
-    <string name="constante6">Ingresa cantidad de numeros para la SERIE DE FIBONACCI:</string>
-    <string name="constante2">INICIAR</string>
+    <string name="constante1">Usuario:</string>
+    <string name="constante4">Contraseña:</string>
+       <string name="constante2">INICIAR</string>
     <string name="constante3">CALCULAR</string>
     <string name="constante7">Resultado</string>
     <string name="constante8">Inicio</string>
@@ -16,11 +14,7 @@
     <string name="constante12">Elija una de las siguientes opciones:</string>
     <string name="constante13">Numero1</string>
     <string name="constante14">Numero2</string>
-<<<<<<< HEAD
-    <string name="constante17">MAPA UNIAGUSTINIANA </string>
-=======
-    <string name="constante17">Ubicación universidad UNIAGUSTINIANA</string>
->>>>>>> origin/master
+    <string name="constante17">INGRESAR </string>
     <string name="title_activity_main6">MainActivity6</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>

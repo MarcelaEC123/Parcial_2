@@ -23,7 +23,7 @@ public class MainActivity5 extends AppCompatActivity implements OnMapReadyCallba
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main5);
 
-        txtlatitud = findViewById(R.id.txtlatitud);
+        txtlatitud = findViewById(R.id.txtLatitud);
         txtlongitud = findViewById(R.id.txtlongitud);
 
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.Mapa);
